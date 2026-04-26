@@ -266,7 +266,7 @@ void setup()
 
     bool ok = false;
 
-    ok = sendCreatePlayer(1, 2, "Alban", "Gueret", false);
+    ok = sendCreatePlayer(1, 2, "John", "Doe", false);
     USB_STREAM.println(ok ? "CP_OK" : "CP_FAIL");
     delay(2000);
 
